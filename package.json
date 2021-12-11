@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/desvillena/react-express-webpack-babel/issues"
   },
-  "homepage": "https://github.com/desvillena/react-express-webpack-babel#readme"
+  "homepage": "https://github.com/desvillena/react-express-webpack-babel#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
